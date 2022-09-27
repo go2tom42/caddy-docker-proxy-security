@@ -6,3 +6,5 @@
 [caddy-security v1.1.15](https://github.com/greenpau/caddy-security/releases/tag/v1.1.15)  
 [caddy-trace v1.1.10](https://github.com/greenpau/caddy-trace/releases/tag/v1.1.10)  
 [dns.providers.cloudflare 815abbf](https://github.com/caddy-dns/cloudflare)  
+
+docker pull ghcr.io/go2tom42/caddy-docker-proxy-security:latest
