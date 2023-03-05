@@ -4,7 +4,6 @@ FROM caddy:${CADDY_VERSION}-builder AS builder
 RUN xcaddy build \
     --with github.com/greenpau/caddy-security \
     --with github.com/lucaslorentz/caddy-docker-proxy/plugin/v2 \
-    --with github.com/caddyserver/caddy/v2=github.com/caddyserver/caddy/v2@v2.6.4
 
 FROM caddy:${CADDY_VERSION}
 
