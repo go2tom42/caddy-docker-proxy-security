@@ -3,7 +3,7 @@ FROM caddy:${CADDY_VERSION}-builder AS builder
 
 RUN xcaddy build \
     --with github.com/greenpau/caddy-security \
-    --with github.com/lucaslorentz/caddy-docker-proxy/plugin/v2@v2.8.3
+    --with github.com/lucaslorentz/caddy-docker-proxy/v2@v2.8.3
 
 FROM caddy:${CADDY_VERSION}
 
